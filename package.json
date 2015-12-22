@@ -2,11 +2,12 @@
   "name": "babel-preset-react-hmre",
   "version": "1.0.0-1",
   "description": "Babel preset for React HMR and Error Catching",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danmartinez101/babel-preset-react-hmre.git"
   },
-  "author": "",
+  "main": "index.js",
+  "author": "Daniel Martinez",
   "license": "ISC",
   "peerDependencies": {
     "react": "^0.14.1"
