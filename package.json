@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-react-hmre",
-  "version": "1.0.0-0",
+  "version": "1.0.0-1",
   "description": "Babel preset for React HMR and Error Catching",
   "main": "index.js",
   "scripts": {
