@@ -8,9 +8,11 @@
   },
   "author": "",
   "license": "ISC",
+  "peerDependencies": {
+    "react": "^0.14.1"
+  },
   "dependencies": {
-    "babel-plugin-react-transform": "^1.1.1",
-    "react": "^0.14.1",
+    "babel-plugin-react-transform": "^2.0.0-beta1",
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.1",
     "redbox-react": "^1.1.1"
