@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-react-hmre",
-  "version": "1.0.0-2",
+  "version": "1.0.0",
   "description": "Babel preset for React HMR and Error Catching",
   "repository": {
     "type": "git",
