@@ -1,4 +1,5 @@
 # Babel preset for React HMR and Error Catching
+[![Circle CI](https://circleci.com/gh/danmartinez101/babel-preset-react-hmre.svg?style=shield)](https://circleci.com/gh/danmartinez101/babel-preset-react-hmre)
 
 This preset will configure Babel 6 for https://github.com/gaearon/react-transform-hmr and friends.
 

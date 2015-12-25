@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/danmartinez101/babel-preset-react-hmre.git"
   },
+  "scripts": {
+    "test": "babel --presets react,../babel-preset-react-hmre test/ | grep \"_wrapComponent('Test')(class Test extends React.Component {\""
+  },
   "main": "index.js",
   "author": "Daniel Martinez",
   "license": "ISC",
@@ -17,5 +20,10 @@
     "react-transform-catch-errors": "^1.0.1",
     "react-transform-hmr": "^1.0.1",
     "redbox-react": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-preset-react": "^6.3.13",
+    "react": "^0.14.3"
   }
 }
