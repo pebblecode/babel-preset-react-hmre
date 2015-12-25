@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "babel-plugin-react-transform": "^2.0.0",
-    "react-transform-catch-errors": "^1.0.0",
+    "react-transform-catch-errors": "^1.0.1",
     "react-transform-hmr": "^1.0.1",
     "redbox-react": "^1.1.1"
   }
