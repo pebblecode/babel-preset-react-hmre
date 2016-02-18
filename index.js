@@ -3,12 +3,12 @@ module.exports = {
     [require('babel-plugin-react-transform').default, {
       transforms: [
         {
-          transform: require.resolve('react-transform-hmr'),
+          transform: require('react-transform-hmr'),
           imports: ['react'],
           locals: ['module'],
         }, {
-          transform: require.resolve('react-transform-catch-errors'),
-          imports: ['react', require.resolve('redbox-react')],
+          transform: require('react-transform-catch-errors'),
+          imports: ['react', require('redbox-react')],
         },
       ],
     }],
